@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { fade, slide } from 'svelte/transition';
 	import { deletedTodo, toggleComplete } from '../store/todoStore';
 	import type { Todo } from '../types/todo';
 
@@ -14,7 +15,7 @@
 	};
 </script>
 
-<div class="container mx-auto mt-[1em]">
+<div class="container mx-auto mt-[1em]" in:fade={{ duration: 200 }} out:slide={{ duration: 200 }}>
 	<div class="card w-full bg-base-100 shadow-xl">
 		<div class="card-body">
 			<div class="card-actions justify-end ">
