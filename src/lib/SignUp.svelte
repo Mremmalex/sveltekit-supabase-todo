@@ -29,7 +29,7 @@
 	}
 </script>
 
-<div class="container mx-auto w-[40%] mt-[10em]">
+<div class="container mx-auto w-[80%] md:w-[40%] mt-[10em]">
 	{#if errorMessage}
 		<h4>{errorMessage}</h4>
 	{/if}

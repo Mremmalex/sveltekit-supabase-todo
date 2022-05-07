@@ -15,7 +15,7 @@
 		<div class="flex justify-between text-center">
 			<a href="/" class="text-bold text-xl text-center mt-2">Your Todo</a>
 			{#if $userAuth}
-				<button class="btn-success py-2 px-4 shadow-sm rounded-lg mt-1" on:click={handleLogout}
+				<button class="px-[1em] hover:font-bold text-xl text-success" on:click={handleLogout}
 					>logout</button
 				>
 			{/if}

@@ -18,7 +18,7 @@
 	}
 </script>
 
-<div class="container mx-auto w-[40%] mt-[2em]">
+<div class="container mx-auto w-[80%] md:w-[40%] mt-[2em]">
 	<AddTodo />
 	{#if loading}
 		<h3>Loading Todos.</h3>
